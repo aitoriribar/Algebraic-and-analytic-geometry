@@ -29,23 +29,25 @@
 \newtheorem{col}{Corolario}[thm]
 \newtheorem{prb}{Problema}[section]
 
+\numberwithin{section}{chapter}
+\numberwithin{equation}{chapter}
+
 \begin{document}
 
-%\numberwithin{section}{chapter}
-%\numberwithin{equation}{chapter}
 
-%\makeindex
+\makeindex
 
 \maketitle 
 
-%\tableofcontents
-%\pagenumbering{gobble}
+\tableofcontents
+\pagenumbering{gobble}
 
+\include{cap1}
+\appendix
 
+\bibliographystyle{amsalpha}
 
-%\bibliographystyle{amsalpha}
-
-%\printindex
+\printindex
 
 
 \end{document}
